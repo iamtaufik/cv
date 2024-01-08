@@ -71,6 +71,15 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "CourseHub",
+      techStack: ["Side Project", "Express", "PostgreSQL", "React"],
+      description: "A MOOC platform to learn anything about programming",
+      link: {
+        label: "coursehub-dun.vercel.app",
+        href: "https://coursehub-dun.vercel.app",
+      },
+    },
+    {
       title: "Forum Amikom",
       techStack: ["Side Project", "TypeScript", "T3 App"],
       description:
