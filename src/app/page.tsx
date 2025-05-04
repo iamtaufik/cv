@@ -98,14 +98,14 @@ export default function Page() {
             {RESUME_DATA.summary}
           </p>
         </Section>
-        {/* <Section>
+        <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
             return (
               <Card key={work.company}>
                 <CardHeader>
-                  <div className="flex items-center justify-between text-base gap-x-2">
-                    <h3 className="inline-flex items-center justify-center font-semibold leading-none gap-x-1">
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       <a className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
@@ -114,7 +114,7 @@ export default function Page() {
                         {work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
-                            className="text-xs align-middle"
+                            className="align-middle text-xs"
                             key={badge}
                           >
                             {badge}
@@ -122,7 +122,7 @@ export default function Page() {
                         ))}
                       </span>
                     </h3>
-                    <div className="text-sm text-gray-500 tabular-nums">
+                    <div className="text-sm tabular-nums text-gray-500">
                       {work.start} - {work.end}
                     </div>
                   </div>
@@ -137,7 +137,7 @@ export default function Page() {
               </Card>
             );
           })}
-        </Section> */}
+        </Section>
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {

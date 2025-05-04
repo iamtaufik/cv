@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   summary:
     "As a Full Stack Web Developer with experience building a website using React, Next.js, Typescript, and Tailwind CSS. I have a passion for building beautiful, responsive, and performant websites.",
   avatarUrl: "/my-photo.jpg",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "",
   contact: {
     email: "muhtopik07@gmail.com",
     tel: "+6281717240455",
@@ -32,22 +32,37 @@ export const RESUME_DATA = {
       school: "University AMIKOM Yogyakarta",
       degree: "Computer Science",
       start: "2021",
-      end: "Present",
+      end: "2025",
+    },
+    {
+      school: "SMK Negeri 1 Saptosari",
+      degree: "Network Engineering",
+      start: "2018",
+      end: "2021",
     },
   ],
-  // work: [
-  //   {
-  //     company: "Medflux",
-  //     link: "https://medflux.vercel.app",
-  //     badges: ["Remote"],
-  //     title: "Full Stack Developer",
-  //     logo: ParabolLogo,
-  //     start: "2023",
-  //     end: "Present",
-  //     description:
-  //       "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-  //   },
-  // ],
+  work: [
+    {
+      company: "Naturindo Fit",
+      link: "https://naturindofit.com",
+      badges: ["Remote"],
+      title: "Fullstack Web Developer",
+      start: "2024",
+      end: "2025",
+      description:
+        "Built a complete full-stack application, including database design, CI/CD pipeline setup, and VPS management.",
+    },
+    {
+      company: "University AMIKOM Yogyakarta",
+      link: "https://amikom.ac.id",
+      badges: ["Remote"],
+      title: "Fullstack Web Developer",
+      start: "2023",
+      end: "2024",
+      description:
+        "Developed full-stack applications with API integration, UI/UX implementation, and production deployment.",
+    },
+  ],
   skills: [
     "JavaScript",
     "TypeScript",
@@ -61,6 +76,24 @@ export const RESUME_DATA = {
     "MongoDB",
   ],
   projects: [
+    {
+      title: "Rumah Kreatif",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Prisma",
+        "PostgreSQL",
+        "NextAuth.js",
+      ],
+      description:
+        "A collaborative initiative to empower local SMEs, culture, and education in Gunungkidul.",
+      link: {
+        label: "rumahkreatifgk.com",
+        href: "https://rumahkreatifgk.com",
+      },
+    },
     {
       title: "Medflux",
       techStack: ["Side Project", "TypeScript", "Next.js", "Tailwind CSS"],
@@ -102,18 +135,25 @@ export const RESUME_DATA = {
       description: "A platform to voting for your favorite things",
       link: {
         label: "lets-votely.com",
-        href: "https://lets-votely.com/",
+        href: "https://lets-votely.vercel.app/",
       },
     },
-
     {
-      title: "Kampus Tracker",
-      techStack: ["Side Project", "TypeScript", "React"],
+      title: "OpenForm",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Prisma",
+        "Clerk",
+        "MongoDB",
+      ],
       description:
-        "Track students and lecturers at all universities in Indonesia",
+        "A user-friendly platform for creating interactive forms and collecting meaningful feedback.",
       link: {
-        label: "kampus-tracker.vercel.app",
-        href: "https://kampus-tracker.vercel.app/",
+        label: "openform.vercel.app",
+        href: "https://open-form.vercel.app/",
       },
     },
     {
